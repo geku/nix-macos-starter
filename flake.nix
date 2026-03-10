@@ -36,7 +36,7 @@
         system = "aarch64-darwin";
         modules = [
           ./darwin
-          ./hosts/my-macbook/configuration.nix
+          ./hosts/spider/configuration.nix
         ];
         specialArgs = { inherit inputs self primaryUser; };
       };
