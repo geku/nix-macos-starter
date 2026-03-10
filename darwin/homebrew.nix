@@ -17,34 +17,28 @@
     casks = [
       # OS enhancements
       "aerospace"
-      "cleanshot"
-      "hiddenbar"
       "raycast"
-      "betterdisplay"
 
       # dev
-      "cursor"
-      "ghostty"
+      "iterm2"
       "visual-studio-code"
       "zed"
+      "bruno"
+      "beekeeper-studio"
+      "sourcetree"
 
-      # messaging
-      "discord"
-      "slack"
-      "signal"
+      # tools
+      "elgato-control-center"
+      "bitwarden"
+      "kdiff3"
 
       # other
-      "1password"
-      "anki"
-      "brave-browser"
+      "chrome"
+      "firefox"
       "obsidian"
-      "protonvpn"
       "spotify"
-      "thebrowsercompany-dia"
-      "zen"
     ];
     brews = [
-      "docker"
       "colima"
     ];
     taps = [
