@@ -1,7 +1,7 @@
 { self, ... }:
 {
   # touch ID for sudo
-  security.pam.services.sudo_local.touchIdAuth = true;
+  security.pam.services.sudo_local.touchIdAuth = false;
 
   # system defaults and preferences
   system = {
