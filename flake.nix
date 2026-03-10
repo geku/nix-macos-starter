@@ -32,7 +32,7 @@
     {
       # build darwin flake using:
       # $ darwin-rebuild build --flake .#<name>
-      darwinConfigurations."my-macbook" = darwin.lib.darwinSystem {
+      darwinConfigurations."spider" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./darwin
