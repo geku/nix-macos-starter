@@ -36,8 +36,15 @@ cd ~/.config/nix
 ### 3. Apply the Configuration
 
 ```bash
+# move original zshenv
+sudo mv /etc/zshenv /etc/zshenv.backup
+
+# Initial command to setup nix-darwin
+sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake .#spider
+
+
 # Build and switch to the configuration
-darwin-rebuild switch --flake .#my-macbook
+darwin-rebuild switch --flake .#spider
 
 # Or use the alias after initial setup
 nix-switch
@@ -67,7 +74,7 @@ nix-macos-starter/
 │   ├── shell.nix                # Shell configuration
 │   └── mise.nix                 # Development runtime management
 └── hosts/
-    └── my-macbook/
+    └── spider/
         ├── configuration.nix    # Host-specific packages and settings
         └── shell-functions.sh   # Custom shell scripts
 ```
