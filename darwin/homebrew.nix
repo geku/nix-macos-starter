@@ -33,7 +33,7 @@
       "kdiff3"
 
       # other
-      "chrome"
+      "google-chrome"
       "firefox"
       "obsidian"
       "spotify"
