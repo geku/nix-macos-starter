@@ -44,10 +44,7 @@ sudo nix run nix-darwin/master#darwin-rebuild -- switch --flake .#spider
 
 
 # Build and switch to the configuration
-darwin-rebuild switch --flake .#spider
-
-# Or use the alias after initial setup
-nix-switch
+sudo darwin-rebuild switch --flake .#spider
 ```
 
 ## What's Included

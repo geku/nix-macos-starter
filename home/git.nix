@@ -2,14 +2,13 @@
 {
   programs.git = {
     enable = true;
-    userName = "geku"; # TODO replace
-    userEmail = "YOUR_EMAIL"; # TODO replace
 
-    lfs.enable = true;
+    settings = {
+      user ={
+        name = "Georg Kunz";
+        email = "kwd@gmx.ch";
+      };
 
-    ignores = [ "**/.DS_STORE" ];
-
-    extraConfig = {
       github = {
         user = primaryUser;
       };
@@ -17,5 +16,8 @@
         defaultBranch = "main";
       };
     };
+
+    lfs.enable = true;
+    ignores = [ "**/.DS_STORE" ];
   };
 }

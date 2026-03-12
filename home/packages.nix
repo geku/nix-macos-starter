@@ -16,6 +16,7 @@
       ack
       bat
       httpie
+      nano
 
       # programming languages
       mise # node, deno, bun, rust, python, etc.
@@ -26,7 +27,7 @@
       #nixfmt-rfc-style
       #yt-dlp
       #ffmpeg
-      #ollama
+      ollama
 
       # fonts
       nerd-fonts.fira-code

@@ -39,6 +39,7 @@
       "spotify"
     ];
     brews = [
+      "docker"
       "colima"
     ];
     taps = [
